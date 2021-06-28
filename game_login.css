@@ -1,0 +1,81 @@
+body
+{
+	background-image: url("math1.jpg");
+}
+
+.login_div1
+	{
+		background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		width: 1300px;
+		height: 170px;
+        
+}
+
+.login_div2{
+
+    background: linear-gradient(to right, #fd1d1d , #fcb045 ,#833ab4 );
+		padding: 10px; 
+		float: none;
+		border-radius: 15px;
+		width: 1300px;
+		height: 170px;
+		
+}
+
+
+#player1_inp{
+
+	width: 1277px;
+	border-radius: 6px;
+	font-style: italic;
+}
+
+#player2_inp{
+
+	width: 1277px;
+	border-radius: 6px;
+	font-style: italic;
+}
+
+
+#btn_login{
+
+	border: 6px solid red;
+	background:  linear-gradient(to right, #c6ffdd,#12c2e9, #c471ed, #fd1d1d, #fcb045 ,#833ab4 );
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	border-radius: 20px;
+}
+
+
+
+#head{
+	background:  linear-gradient(to right, #c6ffdd,#12c2e9, #c471ed, #fd1d1d, #fcb045 ,#833ab4 );
+	border: 6px solid black;
+	width: 100%;
+	text-align: center;
+
+}
+
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: white;
+ }
+
+
+
+
+
+
+
+
+
+
+
